@@ -15,12 +15,12 @@
     - 保存规则:`sudo /etc/rc.d/init.d/iptables save `
     - 重启防火墙:`sudo /etc/init.d/iptables restart`
 
-- Redis常用配置
+- ## Redis常用配置
 
   - 开机启动:把旧值`daemonize no`改为`daemonize yes`
   - 绑定IP:`bind 127.0.0.1`改为需要的IP（一般是内网IP）
 
-- Redis重启脚本
+- ## Redis重启脚本
 
   ```
   #!/bin/sh
